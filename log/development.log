@@ -332,3 +332,133 @@ Completed 200 OK in 251ms (Views: 74.2ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 89ms (Views: 41.1ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/alphabet_skill" for 72.21.217.152 at 2017-03-01 15:50:18 +0530
+Cannot render console from 72.21.217.152! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/alphabet_skill"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `call'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered collection of /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (6.9ms)
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (57.4ms)
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.1ms)
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (297.9ms)
+Started POST "/alphabet_skill" for 72.21.217.109 at 2017-03-01 15:51:22 +0530
+Cannot render console from 72.21.217.109! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlphabetsSkillsController#home as JSON
+  Parameters: {"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.dfc9771f-4813-43fc-9964-a341a7ed733d", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.085f3073-fc2a-4819-9e7c-14361c9f08d0", "timestamp"=>"2017-03-01T10:21:22Z", "locale"=>"en-US"}, "alphabets_skill"=>{"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.dfc9771f-4813-43fc-9964-a341a7ed733d", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.085f3073-fc2a-4819-9e7c-14361c9f08d0", "timestamp"=>"2017-03-01T10:21:22Z", "locale"=>"en-US"}}}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (Unable to autoload constant AlexaHandler, expected /Users/sahild/projects/alexa/alphabets/app/controllers/alexa_handler.rb to define it):
+  
+app/controllers/alphabets_skills_controller.rb:5:in `home'
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.7ms)
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (125.9ms)
+Started POST "/alphabet_skill" for 72.21.217.174 at 2017-03-01 15:52:15 +0530
+Cannot render console from 72.21.217.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlphabetsSkillsController#home as JSON
+  Parameters: {"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.69782bfe-2cdf-434e-a27b-75eebc2eb565", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.5250f041-4f32-433f-9436-96a2d6ffc36c", "timestamp"=>"2017-03-01T10:22:14Z", "locale"=>"en-US"}, "alphabets_skill"=>{"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.69782bfe-2cdf-434e-a27b-75eebc2eb565", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.5250f041-4f32-433f-9436-96a2d6ffc36c", "timestamp"=>"2017-03-01T10:22:14Z", "locale"=>"en-US"}}}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (Unable to autoload constant AlexaHandler, expected /Users/sahild/projects/alexa/alphabets/app/controllers/alexa_handler.rb to define it):
+  
+app/controllers/alphabets_skills_controller.rb:5:in `home'
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.5ms)
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.1ms)
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (118.4ms)
+Started POST "/alphabet_skill" for 72.21.217.115 at 2017-03-01 15:54:11 +0530
+Cannot render console from 72.21.217.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlphabetsSkillsController#home as JSON
+  Parameters: {"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.f66672a0-5fe2-4a2d-a031-45e6dec4ffe7", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.ca189e97-ad40-41c4-8118-b807e636e8f4", "timestamp"=>"2017-03-01T10:24:11Z", "locale"=>"en-US"}, "alphabets_skill"=>{"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.f66672a0-5fe2-4a2d-a031-45e6dec4ffe7", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.ca189e97-ad40-41c4-8118-b807e636e8f4", "timestamp"=>"2017-03-01T10:24:11Z", "locale"=>"en-US"}}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (Unable to autoload constant AlexaHandler, expected /Users/sahild/projects/alexa/alphabets/app/controllers/alexa_handler.rb to define it):
+  
+app/controllers/alphabets_skills_controller.rb:7:in `home'
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.7ms)
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.7ms)
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.0ms)
+Started POST "/alphabet_skill" for 72.21.217.170 at 2017-03-01 15:54:49 +0530
+Cannot render console from 72.21.217.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlphabetsSkillsController#home as JSON
+  Parameters: {"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.120ce55a-dae2-460c-a454-5adac8a446e2", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.cb372eb4-23e2-4f4c-b7bd-9ade697e7a71", "timestamp"=>"2017-03-01T10:24:49Z", "locale"=>"en-US"}, "alphabets_skill"=>{"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.120ce55a-dae2-460c-a454-5adac8a446e2", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.cb372eb4-23e2-4f4c-b7bd-9ade697e7a71", "timestamp"=>"2017-03-01T10:24:49Z", "locale"=>"en-US"}}}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (Unable to autoload constant AlexaHandler, expected /Users/sahild/projects/alexa/alphabets/app/controllers/alexa_handler.rb to define it):
+  
+app/controllers/alphabets_skills_controller.rb:7:in `home'
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendering /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.5ms)
+  Rendered /Users/sahild/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (117.4ms)
+Started POST "/alphabet_skill" for 72.21.217.106 at 2017-03-01 15:55:53 +0530
+Cannot render console from 72.21.217.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlphabetsSkillsController#home as JSON
+  Parameters: {"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.380aa5eb-b0fc-4c74-8cca-785cc03e5a71", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.a429c5c4-6aff-4c50-aaac-e0c6b705fe24", "timestamp"=>"2017-03-01T10:25:52Z", "locale"=>"en-US"}, "alphabets_skill"=>{"version"=>"1.0", "session"=>{"new"=>true, "sessionId"=>"SessionId.380aa5eb-b0fc-4c74-8cca-785cc03e5a71", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"LaunchRequest", "requestId"=>"EdwRequestId.a429c5c4-6aff-4c50-aaac-e0c6b705fe24", "timestamp"=>"2017-03-01T10:25:52Z", "locale"=>"en-US"}}}
+Completed 200 OK in 50ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/alphabet_skill" for 72.21.217.83 at 2017-03-01 15:56:05 +0530
+Cannot render console from 72.21.217.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlphabetsSkillsController#home as JSON
+  Parameters: {"version"=>"1.0", "session"=>{"new"=>false, "sessionId"=>"SessionId.380aa5eb-b0fc-4c74-8cca-785cc03e5a71", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"IntentRequest", "requestId"=>"EdwRequestId.4ef88e06-a432-4db9-b8e3-9a1203457891", "timestamp"=>"2017-03-01T10:26:05Z", "locale"=>"en-US", "intent"=>{"name"=>"AlphabetWordIntent", "slots"=>{"AlphabetWord"=>{"name"=>"AlphabetWord", "value"=>"apple"}}}, "inDialog"=>false}, "alphabets_skill"=>{"version"=>"1.0", "session"=>{"new"=>false, "sessionId"=>"SessionId.380aa5eb-b0fc-4c74-8cca-785cc03e5a71", "application"=>{"applicationId"=>"amzn1.ask.skill.47862925-683b-41f2-a9f1-7885641b0add"}, "attributes"=>{}, "user"=>{"userId"=>"amzn1.ask.account.AHUST2JN35VS5WSZU2OU4X5B26OSE6FCVJSKWSTTF7IKBCMG4PO3OU2G7KLB7YZHVLLGCLJ5RN3J3JD5S7AUFYS3EQ6ADRFYKV4XQ5ZQQ623PPBZDROQUZ73ACNGWY447GGIL7IU4E6QACGC5YTPNMBKISMR5L3NS35BCAO7RBBQS4E3S7JDIDZ46MWFCV7NLWCN655JKOUJZNI"}}, "request"=>{"type"=>"IntentRequest", "requestId"=>"EdwRequestId.4ef88e06-a432-4db9-b8e3-9a1203457891", "timestamp"=>"2017-03-01T10:26:05Z", "locale"=>"en-US", "intent"=>{"name"=>"AlphabetWordIntent", "slots"=>{"AlphabetWord"=>{"name"=>"AlphabetWord", "value"=>"apple"}}}, "inDialog"=>false}}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+

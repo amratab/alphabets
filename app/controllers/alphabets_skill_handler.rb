@@ -1,4 +1,4 @@
-class AlphabetSkillHandler < AlexaSkillsRuby::Handler
+class AlphabetsSkillHandler < AlexaSkillsRuby::Handler
   on_launch do
     response.set_output_speech_text("Welcome to alphabet Teacher. What is A for?")
     response.should_end_session = false

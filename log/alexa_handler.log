@@ -9,3 +9,5 @@ I, [2017-02-26T17:21:33.041103 #3409]  INFO -- : {"version":"1.0","sessionAttrib
 I, [2017-02-26T17:21:51.887658 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"You said "}}}
 I, [2017-02-26T17:22:37.331363 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":false,"outputSpeech":{"type":"PlainText","text":"Welcome to alphabet Teacher. What is A for?"}}}
 I, [2017-02-26T17:22:50.560176 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"You said apple"}}}
+I, [2017-03-01T15:55:53.422887 #67276]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":false,"outputSpeech":{"type":"PlainText","text":"Welcome to alphabet Teacher. What is A for?"}}}
+I, [2017-03-01T15:56:05.441624 #67276]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"You said apple"}}}
