@@ -1,0 +1,11 @@
+# Logfile created on 2017-02-26 17:04:31 +0530 by logger.rb/47272
+I, [2017-02-26T17:04:31.747130 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true}}
+I, [2017-02-26T17:05:16.682699 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"Welcome to alphabet Teacher."}}}
+I, [2017-02-26T17:06:48.865540 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"Welcome to alphabet Teacher."}}}
+I, [2017-02-26T17:07:58.960438 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"Welcome to alphabet Teacher."}}}
+I, [2017-02-26T17:09:40.950550 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"Welcome to alphabet Teacher."}}}
+I, [2017-02-26T17:10:43.011949 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"Welcome to alphabet Teacher."}}}
+I, [2017-02-26T17:21:33.041103 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":false,"outputSpeech":{"type":"PlainText","text":"Welcome to alphabet Teacher. What is A for?"}}}
+I, [2017-02-26T17:21:51.887658 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"You said "}}}
+I, [2017-02-26T17:22:37.331363 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":false,"outputSpeech":{"type":"PlainText","text":"Welcome to alphabet Teacher. What is A for?"}}}
+I, [2017-02-26T17:22:50.560176 #3409]  INFO -- : {"version":"1.0","sessionAttributes":{},"response":{"shouldEndSession":true,"outputSpeech":{"type":"PlainText","text":"You said apple"}}}
